@@ -24,9 +24,12 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+//Values have a bad naming system, as they are not detailed
+//Giving each variable an action as a name
 
-console.log(d);
+let name = "Alice"; //Change 'a' to 'name'
+let numberOfItems = 5; //Change 'b' to 'numberOfItems'
+let amountOfMoney = 20; //Change 'c' to 'amountOfMoney'
+let prompt = a + " bought " + b + " items for $" + c + "."; //Change 'd' to 'prompt
+
+console.log(prompt);
