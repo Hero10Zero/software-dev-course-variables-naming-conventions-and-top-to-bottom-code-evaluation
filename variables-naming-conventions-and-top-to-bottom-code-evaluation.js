@@ -30,6 +30,6 @@ Things to reflect on:
 let name = "Alice"; //Change 'a' to 'name'
 let numberOfItems = 5; //Change 'b' to 'numberOfItems'
 let amountOfMoney = 20; //Change 'c' to 'amountOfMoney'
-let prompt = a + " bought " + b + " items for $" + c + "."; //Change 'd' to 'prompt
+let prompt = name + " bought " + numberOfItems + " items for $" + amountOfMoney + "."; //Change 'd' to 'prompt
 
 console.log(prompt);
